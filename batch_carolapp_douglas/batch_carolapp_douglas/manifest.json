@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "processes": [
+      {
+        "algorithmDescription": {
+          "en-US": "Batch task Description",
+          "pt-BR": "Descrição do Tarefa Batch"
+        },
+        "algorithmName": "batch_algorithm",
+        "algorithmTitle": {
+          "en-US": "Batch task Description",
+          "pt-BR": "Descrição do Tarefa Batch"
+        },
+        "dataModels": [],
+        "instanceProperties": {
+          "luigi": {
+            "workers": "4"
+          },
+          "properties": {
+            "dockerName": "batch_carolapp_douglas-batch_algorithm",
+            "instanceType": "c1.nano"
+          }
+        },
+        "name": "batch_carolapp_douglas"
+      }
+    ]
+  },
+  "docker": [
+    {
+      "dockerName": "batch_carolapp_douglas-batch_algorithm",
+      "dockerTag": "0.1.0",
+      "gitBranch": "master",
+      "gitPath": "/batch_carolapp_douglas",
+      "instanceType": "c1.small",
+      "gitDockerfileName": "Dockerfile",
+      "gitRepoUrl": "https://github.com/rfschroeder/carolapp-samples"
+    }
+  ]
+}

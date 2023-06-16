@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ai-script">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/online-nodejs-carolapp/ai-script.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
